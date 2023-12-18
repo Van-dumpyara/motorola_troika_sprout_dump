@@ -1,0 +1,3 @@
+user=log domain=log_app type=log_app_data_file
+user=smartcard domain=platform_app type=smartcard_data_file
+user=_app seinfo=common domain=moto_app type=app_data_file levelFrom=user

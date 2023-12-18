@@ -1,0 +1,4 @@
+(allowx fsck_untrusted vold_device (ioctl blk_file (0x125e)))
+(allowx vold vold_device (ioctl blk_file (0x125e)))
+(allowx fsck_untrusted vold_device (ioctl blk_file (0x125e)))
+(allowx vold vold_device (ioctl blk_file (0x125e)))

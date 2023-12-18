@@ -1,0 +1,44 @@
+#line 1 "device/samsung/sepolicy/private/service_contexts"
+exynos_display       u:object_r:exynos_display_service:s0
+telephony.oem                   u:object_r:radio_service:s0
+motoexttelephony     u:object_r:radio_service:s0
+epic                                      u:object_r:epic_service:s0
+
+#From Trustonic
+#Declaring which system interface is implemented by Trustonic TeeService
+vendor.trustonic.teeservice.ITeeService    u:object_r:tee_service:s0
+vendor.trustonic.teeregistryservice.ITeeRegistryService    u:object_r:teeregistry_service:s0
+#line 1 "motorola/security/sepolicy/system_ext/private/service_contexts"
+## NOTE: Contexts added in this file MUST start with a blank line as below.
+
+checkin_mot                               u:object_r:mot_app_service:s0
+com.motorola.aon.glimpse_service          u:object_r:mot_app_service:s0
+vzwconnectivity                           u:object_r:mot_system_service:s0
+moto_networkstats                         u:object_r:mot_networkstats_service:s0
+locationproxy                             u:object_r:mot_system_service:s0
+partial_display_service                   u:object_r:mot_app_service:s0
+modality                                  u:object_r:mot_app_service:s0
+motodisplay_int_service                   u:object_r:mot_system_service:s0
+media.eqservice                           u:object_r:audioserver_service:s0
+com.broadcom.nfc.Factory                  u:object_r:nfc_service:s0
+com.vzw.nfc.AidFilter                     u:object_r:nfc_service:s0
+moto_pers_data_block                      u:object_r:mot_system_service:s0
+moto_ai_tune                              u:object_r:mot_system_service:s0
+mot_device_policy                         u:object_r:device_policy_service:s0
+panel                                     u:object_r:mot_panel_service:s0
+panel_native                              u:object_r:display_service:s0
+motsettings                               u:object_r:mot_system_service:s0
+motorola_maya_performance                 u:object_r:mot_app_service:s0
+media.camera_bgproc                       u:object_r:mot_bgproc_service:s0
+nfc.st_ext                                u:object_r:nfc_service:s0
+nfc_settings                              u:object_r:nfc_service:s0
+climanager                                u:object_r:mot_climanager_service:s0
+motoextims                                u:object_r:mot_radio_service:s0
+moto_extend_service                       u:object_r:mot_system_service:s0
+moto_ext_hw_service                       u:object_r:mot_system_service:s0
+moto_ext_telephony.registry               u:object_r:mot_system_service:s0
+singlehand_fold_service                   u:object_r:mot_system_service:s0
+moto_desktop_service                      u:object_r:mot_system_service:s0
+
+##NOTE: DO NOT change the last line, keep it as blank!.
+
