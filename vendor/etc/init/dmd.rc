@@ -1,0 +1,6 @@
+# DM daemon
+    service DM-daemon /vendor/bin/dmd
+    class main
+    user system 
+    group system radio
+    capabilities NET_RAW

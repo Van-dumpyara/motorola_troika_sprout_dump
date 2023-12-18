@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /data/vendor/slog 0771 system log
+    mkdir /data/vendor/rild 0771 radio system
