@@ -1,0 +1,149 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "apanic_annotate.sh",
+    src: "bin/apanic_annotate.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "apanic_copy.sh",
+    src: "bin/apanic_copy.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "apanic_save.sh",
+    src: "bin/apanic_save.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "cpu_stats.sh",
+    src: "bin/cpu_stats.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "hardware_revisions.sh",
+    src: "bin/hardware_revisions.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.media.specified_para.sh",
+    src: "bin/init.media.specified_para.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mmi.block_perm.sh",
+    src: "bin/init.mmi.block_perm.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mmi.boot.sh",
+    src: "bin/init.mmi.boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mmi.touch.sh",
+    src: "bin/init.mmi.touch.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mmi.usb.sh",
+    src: "bin/init.mmi.usb.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.oem.hw.sh",
+    src: "bin/init.oem.hw.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "mx_log_collection.sh",
+    src: "bin/mx_log_collection.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "mx_logger.sh",
+    src: "bin/mx_logger.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "mx_logger_dump.sh",
+    src: "bin/mx_logger_dump.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "pstore_annotate.sh",
+    src: "bin/pstore_annotate.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "scsc_enable_flight_mode.sh",
+    src: "bin/scsc_enable_flight_mode.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "scsc_get_platform_info.sh",
+    src: "bin/scsc_get_platform_info.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "wlan_debug_level.sh",
+    src: "bin/wlan_debug_level.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "wlbt_onoff.sh",
+    src: "bin/wlbt_onoff.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.mmi.debug.rc",
+    src: "etc/init.mmi.debug.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mmi.overlay.rc",
+    src: "etc/init.mmi.overlay.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mmi.tcmd.rc",
+    src: "etc/init.mmi.tcmd.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.mptool",
+    src: "etc/fstab.mptool",
+    vendor: true,
+}

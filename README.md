@@ -1,0 +1,14 @@
+# user 11 RSBS31.Q1-48-36-26 9a0b6f release-keys
+- manufacturer: motorola
+- platform: erd9610
+- codename: troika_sprout
+- flavor: user
+- release: 11
+- id: RSBS31.Q1-48-36-26
+- incremental: 9a0b6f
+- tags: release-keys
+- fingerprint: motorola/troika_retail/troika_sprout:11/RSBS31.Q1-48-36-26/9a0b6f:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: user-11-RSBS31.Q1-48-36-26-9a0b6f-release-keys
+- repo: motorola_troika_sprout_dump

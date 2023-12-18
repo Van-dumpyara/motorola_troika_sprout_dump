@@ -1,0 +1,1 @@
+/dev/block/platform/13520000.ufs/by-name/efsbk     /mnt/vendor/efsbk     ext4     defaults,rw     wait
